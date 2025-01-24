@@ -1,0 +1,221 @@
+@font-face {
+    font-family: japan;
+    src: url(./3856NeueMachina.woff2);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+nav h1{
+    font-size: 50px;
+    gap: 20px;
+}
+nav h1 i{
+    rotate: 45deg;
+    display: inline-block;
+    font-size: 55px;
+}
+nav h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+nav button{
+    padding: 22px 40px;
+    font-size: 22px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 1px solid #000;
+}
+.center{
+    padding: 70px 100px;
+    height: 65%;
+    width: 100%;
+    display: flex;
+}
+.center-part1{   
+    height: 100%;
+    width: 44%;
+}
+.center-part1 h1{
+    line-height: 1.1;
+    font-size: 60px;
+    font-family: japan;
+}
+.center-part1 p{
+    font-size: 20px;
+    width: 95%;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.center-part1 button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 22px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+}
+.center-part2{
+    height: 100%;
+    width: 56%;
+}
+.center-part2 img{
+    position: absolute;
+    height: 60%;
+    padding-left: 100px;
+}
+.section1bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+}
+.section1bottom img{
+    height: 40px;
+    
+}
+.section2 .services{
+    
+    padding: 0px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: 130px;
+}
+.services h3{
+    background-color: #9ae975;
+    font-weight: 500;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-family: japan;
+    font-size: 30px;
+}
+.services p{
+    width: 40%;
+    font-size: 15px;
+    font-weight: 40px;
+}
+
+.container{
+    min-height: 110vh;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+
+.elem{
+    height: 250px;
+    width: 47%;
+    border: 3px solid black;
+    border-radius: 30px;
+    
+    padding: 60px;
+    flex-shrink: 0;
+    box-shadow: 0px 10px 0px black;
+    display: flex;
+
+}
+
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.elem-part2{
+    height: 100%;
+    width: 50%;
+}
+.elem-part2 img{
+    height: 100%;
+    padding-left: 30%;
+}
+.elem-part1 h2{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: japan;
+    background-color: #9ae975;
+    width: 90%;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.elem-part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    gap: 15px;
+}
+.elem-part1 h4 i{
+    padding: 4px;
+    background-color: black;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 100;
+}
+.black{
+    background-color: #000;
+}
+.black .elem-part1 h2{
+    
+    font-size: 25px;
+    font-weight: 600;
+    font-family: japan;
+    background-color: #fff;
+    width: 90%;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.black .elem-part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    gap: 15px;
+    color: #fff;
+}
+
+.black .elem-part1 h4 i{
+    padding: 4px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    font-weight: 100;
+}
